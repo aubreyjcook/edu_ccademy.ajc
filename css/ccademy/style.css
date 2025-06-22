@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: midnightblue;;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: whitesmoke;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}

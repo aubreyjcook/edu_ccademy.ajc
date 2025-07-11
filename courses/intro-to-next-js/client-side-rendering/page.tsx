@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import BackgroundManager from './BackgroundManager';
 
 export default function ThemeSwitch() {
@@ -8,10 +8,9 @@ export default function ThemeSwitch() {
   return (
   <>
     <BackgroundManager light={!isNightMode} />
-    <button onClick={() => setIsNightMode(!isNightMode)})>
+    <button onClick={() => setIsNightMode(!isNightMode)}>
         {isNightMode ? 'Switch to Day Mode': 'Switch to Night Mode'} 
     </button>
   </>
   );
 }
-

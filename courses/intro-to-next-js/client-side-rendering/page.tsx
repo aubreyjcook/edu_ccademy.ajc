@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import BackgroundManager from './BackgroundManager';
+import BackgroundManager from '../components/BackgroundManager';
 
 export default function ThemeSwitch() {
   const [isNightMode, setIsNightMode] = useState<boolean>(false);

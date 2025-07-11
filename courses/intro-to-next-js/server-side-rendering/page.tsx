@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
 const fetchCurrentTime = (): string => {
   return new Date().toLocaleString();
 };
-
 export default function TimePage() {
-  const currentTime = fetchCurrentTime();
-  
+  const currentTime: string = fetchCurrentTime();
   return (
-    <>
-      <p>
-      </p>
-    </>
+    <div>
+      <h1>Current Time</h1>
+      <p>The current time is: {currentTime}</p>
+    </div>
   );
 };
